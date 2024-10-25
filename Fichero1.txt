@@ -1,0 +1,22 @@
+prueba
+
+package ejerciciosUD2;
+import java.util.Scanner;
+public class pruebafor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner (System.in);
+		
+		int n = scanner.nextInt();
+				
+		if(n%2==0){
+			//codigo si es par
+				System.out.println("Este número es par");
+			}else{
+			//codigo si es impar
+				System.out.println("Este número es impar");
+			}
+		}
+
+}
